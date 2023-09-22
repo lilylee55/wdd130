@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+:root {
+    --primary-color: #BDE0D8;
+    --secondary-color: #1EA192;
+    --accent1-color: #40231A;
+    --accent2-color: #F7CA39;
+
+    --heading-font: "Permanant Marker", serif;
+    --paragraph-font: "Roboto", serif;
+
+    --nav-background-color: #e1e6e9;
+    --nav-link-color: black;
+    --nav-hover-link-color: #1EA192;
+    --nav-hover-background-color: white;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color)
+}
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
