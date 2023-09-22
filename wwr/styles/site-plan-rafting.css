@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto&display=swap');
 :root {
     --primary-color: #BDE0D8;
     --secondary-color: #1EA192;
     --accent1-color: #40231A;
     --accent2-color: #F7CA39;
 
-    --heading-font: "Permanant Marker", serif;
+    --heading-font: "Kanit", serif;
     --paragraph-font: "Roboto", serif;
 
     --nav-background-color: #e1e6e9;
