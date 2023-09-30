@@ -1,3 +1,13 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body {
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -13,9 +23,11 @@ main {
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 h1 {
     color: steelblue;
+    padding: .5rem
 }
 img {
     width: 150px;
@@ -28,20 +40,36 @@ p {
     padding: 0;
 }
 aside {
+    position: relative;
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
 }
 aside img {
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position: absolute;
+    top: 60px;
+    right: 80px;
+}
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+}
+p {
+    margin: 1rem;
+}
+
+/* Class Selctors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+.indent {
+    padding-left: 2rem;
 }
