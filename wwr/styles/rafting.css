@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto&display=swap');
+
+:root {
+    --primary-color: #BDE0D8;
+    --secondary-color: #1EA192;
+    --accent1-color: #40231A;
+    --accent2-color: #F7CA39;
+
+    --heading-font: "Kanit", serif;
+    --paragraph-font: "Roboto", serif;
+
+    --nav-background-color: #e1e6e9;
+    --nav-link-color: black;
+    --nav-hover-link-color: #1EA192;
+    --nav-hover-background-color: white;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1 {
+    font-family: var(--heading-font);
+    color: #bed;
+    position: absolute;
+    float: left;
+    top: 300px;
+    font-size: 100px;
+    background-color: #40231abe;
+    padding: 0.5rem;
+
+}
+article {
+    position: absolute;
+    max-width: 900px;
+    top: 550px;
+}
+article img {
+    float: right;
+    width: 300px;
+}
+article p {
+    color:#40231a;
+    background-color: rgba(187, 238, 221, 0.731);
+    padding: 1rem;
+}
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color)
+}
+/* Remove Underline of Socil Links */
+.sociallinks a{
+    text-decoration: none;
+}
+.heroimg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sociallinks img {
+    width: 70px;
+}
