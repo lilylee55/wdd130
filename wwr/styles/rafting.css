@@ -26,15 +26,18 @@ h1 {
     position: absolute;
     float: left;
     top: 300px;
+    left: 100px;
     font-size: 100px;
     background-color: #40231abe;
     padding: 0.5rem;
+
 
 }
 article {
     position: absolute;
     max-width: 900px;
     top: 550px;
+    left: 50px;
 }
 article img {
     float: right;
