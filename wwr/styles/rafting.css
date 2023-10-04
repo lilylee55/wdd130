@@ -20,7 +20,8 @@ body {
     max-width: 960px;
     padding: 20px;
 }
-h1 {
+
+.hero h1 {
     font-family: var(--heading-font);
     color: #bed;
     position: absolute;
@@ -33,13 +34,13 @@ h1 {
 
 
 }
-article {
+.hero article {
     position: absolute;
     max-width: 900px;
     top: 550px;
     left: 50px;
 }
-article img {
+.hero article img {
     float: right;
     width: 300px;
 }
@@ -51,12 +52,12 @@ article p {
 h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color)
-}
+} 
 /* Remove Underline of Socil Links */
-.sociallinks a{
+.sociallinks a{ 
     text-decoration: none;
 }
-.heroimg {
+.hero img {
     position: relative;
     display: block;
     width: 100%;
