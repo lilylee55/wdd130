@@ -15,6 +15,35 @@
     --nav-hover-background-color: white;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+	align-items: center;
+    border: 1px solid black;
+	max-width: 1000px;
+    background-color: var(--secondary-color);
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    padding: 20px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+nav a:hover {
+    color:#40231A
+}
+
 main {
     max-width: 960px;
 }
@@ -58,8 +87,13 @@ article p {
 }
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color)
+    color: var(--accent1-color);
+    text-align: center;
 } 
+.sociallinks {
+    display: flex;
+    justify-content: center;
+}
 /* Remove Underline of Socil Links */
 .sociallinks a{ 
     text-decoration: none;
@@ -73,3 +107,55 @@ h2 {
 .sociallinks img {
     width: 70px;
 }
+
+.history, .adventures {
+    background-color:rgba(187, 238, 221, 0.731);
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+head, body{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  figure img {
+    max-width: 170px;
+    max-height: 120px;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  
+  footer {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-rows: 50px 100px;
+	align-items: center;
+    border: 1px solid black;
+	max-width: 1000px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    font-size: 16px;
+    color: var(--primary-color);
+  }
