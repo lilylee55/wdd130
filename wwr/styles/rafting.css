@@ -91,10 +91,8 @@ body {
     width: 300px;
 }
 article p {
-    color:#40231a;
-    /* background-color: rgba(187, 238, 221, 0.731); */
     background-color: #f7cb39e5;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 .history p{
     padding-left: 25px;
@@ -171,7 +169,6 @@ figure {
     background-color: var(--secondary-color);
     text-align: center;
     font-size: 20px;
-    color: varr(--accent1-color);
     font-weight: 800;
   }
 
