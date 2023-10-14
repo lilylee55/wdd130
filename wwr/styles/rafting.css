@@ -51,7 +51,8 @@ header nav a {
 }
 
 nav a:hover {
-    color: var(--accent2-color)
+    color:#222;
+    background-color: var(--accent2-color);
 }
 
 main {
@@ -122,9 +123,11 @@ h1,h2 {
 }
 
 .history, .adventures {
-    background-color:rgba(187, 238, 221, 0.731);
     padding: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 1rem; 
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
 }
 
 .flex {
