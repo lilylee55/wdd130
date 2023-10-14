@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Down the River Rafting Site - Contact Us Page</title>
+    <meta name="description" content="The page is an Contact US page for the rafting site project">
+    <meta name="author" content="Jayoung Lee Tindi">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/downriver.png" alt="Raftinig Site Logo">
+        <nav>           
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>     
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <section class="contactus">
+            <p>Down The River</p>
+            <p>Address: 5PWH+CV De Beque, Colorado </p>
+            <p>Phone: 333-666-9999</p>
+            <p>Email: <a href="mailto:">downtheriver@gmail.com</a></p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12368.228986492333!2d-108.27756684466266!3d39.19614794469001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scolorado%20river%20utah!5e0!3m2!1sen!2sus!4v1697266960436!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <!-- <div class="hero">
+            <img src="images/hero2.jpeg" alt="Blackground Image">
+            <h1>Down the River</h1>
+            <article>
+                <img src="images/happy_client.png" alt="happy client">
+                <p>Dive into an unforgettable journey with "Down the River" Whitewater Rafting. Since 1989, we've transformed the raw thrill of the rapids into cherished memories. From the exhilarating splash of the waves to our steadfast commitment to safety and environmental care, we invite you to experience the ultimate river adventure. Join us and become a part of a legacy where every paddle stroke tells a story.</p>
+        
+            </article>
+        </div> -->
+
+        <section class="employees">
+            <h2>Our Employees</h2>
+            <div class="flex">
+            <figure><img src="images/happyemployee1.jpeg" alt="Adam">  <figcaption>Adam</figcaption>
+            </figure>
+            <figure><img src="images/happyemployee2.jpeg" alt="Brad"> <figcaption>Brad</figcaption>
+            </figure>
+            <figure><img src="images/happyemployee3.jpeg" alt="Rachel"> <figcaption>Rachel</figcaption>
+            </figure>
+            <figure><img src="images/happyemployee4.jpeg" alt="Harry"> <figcaption>Harry</figcaption>
+            </figure>
+            </div>
+        </section>
+        <h2>Send Us a Message</h2>
+        <form action="/submit" method="post">
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label>Purpose of Message:</label>
+            <label>
+                <input type="radio" name="purpose" value="General Inquiry" required> <span class="generalinquiry">General Inquiry</span>
+            </label>
+            <label>
+                <input type="radio" name="purpose" value="Reservation Question"> <span class="reservationq">Reservation Question</span>
+            </label>
+            <label>
+                <input type="radio" name="purpose" value="Website Suggestion"> <span class="websitesuggestion">Website Suggestion</span>
+            </label>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        
+            <label>
+                <input type="checkbox" name="subscribe" value="yes"> <span class="subscribe"> Subscribe me to the monthly newsletter </span>
+            </label>
+        
+            <button type="submit">Submit Message</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2023 🌸 Down the River 🌸 Jayoung Lee Tindi </p>
+        <nav class="sociallinks">
+            <a href="http://facebook.com" target="_blank">
+                <img src="images/facebook_icon.png" alt="Facebook"></a>
+            <a href="http://youtube.com" target="_blank">
+                <img src="images/youtube_icon.png" alt="Youtube"></a>
+            <a href="http://instagram.com" target="_blank">
+                <img src="images/instagram_icon.png" alt="Instagram"></a>
+        </nav>
+    </footer>
+    
+</body>
+</html>
