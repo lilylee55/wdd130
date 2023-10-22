@@ -78,6 +78,7 @@ body {
     background-color: #40231abe;
     padding: 0.5rem;
     margin: 0;
+    border-radius: 5px;
 
 
 }
@@ -94,12 +95,13 @@ body {
 article p {
     background-color: #f7cb39e5;
     padding: 1.5rem;
+    border-radius: 5px;
 }
 .history p{
     padding-left: 25px;
     padding-right: 25px;
 }
-h1,h2 {
+h1,h2,h3 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
     text-align: center;
@@ -188,6 +190,22 @@ section {
     flex-direction: column; 
     align-items: center;
 }
+.contactcompany {
+
+}
+.trip-content-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:#eee;
+    align-items: stretch;
+    
+}
+.trip-section {
+    padding: 15px;
+}
+.trip-image {
+    max-width: 30px;
+}
 .contactus {
     width: 650px;
     margin: 0 auto;
@@ -201,6 +219,7 @@ form {
     width: 750px;
     margin: 0 auto;
     padding: 1rem;
+    padding-top: 5px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
@@ -242,4 +261,64 @@ button {
 button:hover {
     background-color:#F7CA39;
     color:#222;
+}
+
+.contactbutton {
+    background-color:#F7CA39;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.contactbutton:hover {
+    background-color:#bed;
+    color:#222;
+}
+
+.homehero h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    font-size: 60px;
+    background-color: #40231abe;
+    padding: 0.5rem;
+    margin: 0;
+
+
+}
+.homesection {
+    display: flex;
+    justify-content: center;
+}
+.homesection img {
+    width: 700px;
+ 
+}
+.homesection p {
+    background-color: #bed;
+    padding: 10px;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.tripswrapper {
+background-color: #eee;
+margin-top: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.homesection p {
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
