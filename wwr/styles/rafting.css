@@ -124,14 +124,21 @@ h1,h2,h3 {
     width: 50px;
 }
 
-.history, .adventures {
+.history, .adventures, .home-page-section1, .whychooseus_section {
     padding: 0.5rem;
     margin-top: 1rem; 
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
 }
-
+.section1,.section2 {
+    padding: 0.5rem;
+    margin-top: 1rem; 
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    padding-bottom: 30px;
+}
 .flex {
     display: flex;
     justify-content: center;
@@ -193,18 +200,28 @@ section {
 .contactcompany {
 
 }
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-left: 70px;
+}
+.book-button {
+    padding: 20px;
+    margin-left: 45px;
+    background-color: #40231A;
+}
 .trip-content-grid {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color:#eee;
     align-items: stretch;
     
+    
 }
-.trip-section {
-    padding: 15px;
-}
-.trip-image {
-    max-width: 30px;
+
+.trips-figure {
+    max-width: 300px;
 }
 .contactus {
     width: 650px;
@@ -310,15 +327,131 @@ form {
     justify-content: center;
 }
 
-.tripswrapper {
+/* .tripswrapper {
 background-color: #eee;
 margin-top: 20px;
 border: 1px solid #ccc;
 border-radius: 5px;
-}
+} */
 
 .homesection p {
     width: 80%;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+.trips-figure img {
+    max-width: 200px;
+}
+
+table, td {
+    border: 1px solid var(--accent2-color);
+    border-collapse: collapse;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.td_odd {
+    background-color:#40231A;
+    color: #fff;
+    padding: 0 1em;
+}
+.td_cost {
+    padding: 0 1em;
+}
+.trip-text {
+    padding: 10px;
+    padding-left: 20px;
+}
+.home-page-section1 {
+    text-align: center;
+    padding: 4em;
+}
+
+.action-button a {
+    padding: 20px;
+    width: 130px;
+    color: white;
+    background-color: var(--accent1-color);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.action-button p {
+    font-family: var(--paragraph-font);
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-bottom: 60px;
+}
+
+.button:hover {
+    background-color:#F7CA39;
+    color:#222;
+}
+
+.contact-us-button {
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.contact-us-button a {
+    padding: 20px;
+    width: 130px;
+    margin-left: 400px;
+    color:black;
+    background-color:#bed;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.contact-us-button a:hover {
+    background-color: #1EA192;
+}
+
+.whychooseus {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 500px;
+    margin: auto;
+}
+.home-page-section2fig img {
+    max-width: 360px;
+    max-height: 200px;
+}
+  
+  .home-page-section2fig figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+  .home-page-section2fig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+
+}
+
+
+iframe {
+    width: 300px;
+    height: 200px;
 }
