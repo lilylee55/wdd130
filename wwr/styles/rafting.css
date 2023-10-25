@@ -428,6 +428,11 @@ tr {
 
 }
 
+.wireframe {
+    background-color:var(--primary-color);
+    font-size: small;
+    padding: 0.1em;
+}
 
 iframe {
     width: 300px;
