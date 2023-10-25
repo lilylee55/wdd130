@@ -365,9 +365,8 @@ tr {
 }
 
 .action-button p {
-    font-family: var(--paragraph-font);
-    font-weight: 500;
-    color: var(--secondary-color);
+    font-weight: bold; 
+    color:var(--accent1-color);
     margin-bottom: 60px;
 }
 
