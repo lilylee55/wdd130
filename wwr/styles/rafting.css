@@ -305,31 +305,12 @@ button:hover {
 
 
 }
-.homesection {
-    display: flex;
-    justify-content: center;
-}
-.homesection img {
-    width: 700px;
- 
-}
-.homesection p {
-    background-color: #bed;
-    padding: 10px;
-}
 
 form {
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: center;
 }
-
-/* .tripswrapper {
-background-color: #eee;
-margin-top: 20px;
-border: 1px solid #ccc;
-border-radius: 5px;
-} */
 
 .homesection p {
     width: 80%;
